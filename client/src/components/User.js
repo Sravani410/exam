@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import UserForm from './userForm';
+import UserTable from './userTable';
+
 
 const User = ({ user }) => {
   return (
