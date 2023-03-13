@@ -1,13 +1,11 @@
-import React from "react";
-import UserTable from "./components/UserTable";
-import UserForm from "./components/UserForm";
+import UserForm from './components/UserForm';
+import UserTable from './components/UserTable';
 
 function App() {
   return (
     <div>
-      <h1>User Form</h1>
       <UserForm />
-      <UserTable/>
+      <UserTable />
     </div>
   );
 }
